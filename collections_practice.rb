@@ -1,4 +1,4 @@
-
+require "pry"
 
 def begins_with_r(array)
   value = true
