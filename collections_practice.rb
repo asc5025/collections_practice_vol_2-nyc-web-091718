@@ -48,8 +48,7 @@ def count_elements(array)
         hash[:count] += 1
       end
     end
-  end
-  return hash[:name].uniq
+  end.uniq
 end
 
 def merge_data(keys, data)
