@@ -81,10 +81,10 @@ def organize_schools(schools)
   schools.each do |name, location|
     city = location[:location]
     if organized_hash[city] == true
-      organized_hash[location] << name
+      organized_hash[city] << name
     else
-      organized_hash[location] = []
-      organized_hash[location] << name
+      organized_hash[city] = []
+      organized_hash[city] << name
     end
   end
   return organized_hash
