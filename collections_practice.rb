@@ -84,7 +84,7 @@ def organize_schools(schools)
     city = location[:location]
     if organized_hash[city]
       organized_hash[city] << name
-      binding.pry
+      #binding.pry
     else
       organized_hash[city] = []
       organized_hash[city] << name
