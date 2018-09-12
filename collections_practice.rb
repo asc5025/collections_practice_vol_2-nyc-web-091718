@@ -39,7 +39,8 @@ def remove_non_strings(array)
   return string_array
 end
 
-def count_elements
+def count_elements(array)
+  
 end
 
 def merge_data(keys, data)
