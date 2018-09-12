@@ -79,5 +79,6 @@ end
 def organize_schools(schools)
   organized_hash = {}
   schools.each do |name, location|
+    city = 
 end
 
