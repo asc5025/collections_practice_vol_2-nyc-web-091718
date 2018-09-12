@@ -83,6 +83,7 @@ def organize_schools(schools)
     if organized_hash[location] == true
       organized_hash[location] << name
     else
-      organized_hash
+      organized_hash[location] = []
+      
 end
 
