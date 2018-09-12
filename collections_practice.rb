@@ -84,6 +84,6 @@ def organize_schools(schools)
       organized_hash[location] << name
     else
       organized_hash[location] = []
-      
+      organized_hash[location] << name
 end
 
