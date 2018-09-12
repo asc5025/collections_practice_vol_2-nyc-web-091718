@@ -1,3 +1,5 @@
+
+
 def begins_with_r(array)
   value = true
   array.each do |element|
@@ -82,6 +84,7 @@ def organize_schools(schools)
     city = location[:location]
     if organized_hash[city]
       organized_hash[city] << name
+      binding.pry
     else
       organized_hash[city] = []
       organized_hash[city] << name
