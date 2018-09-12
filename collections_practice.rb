@@ -78,6 +78,6 @@ end
 
 def organize_schools(schools)
   organized_hash = {}
-  
+  schools.each do |
 end
 
