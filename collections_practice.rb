@@ -76,8 +76,8 @@ def find_cool(array)
   return new_array
 end
 
-def organize_schools
-  array = []
+def organize_schools()
+  organized = {}
   
 end
 
