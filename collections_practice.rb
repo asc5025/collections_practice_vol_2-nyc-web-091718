@@ -81,6 +81,8 @@ def organize_schools(schools)
   schools.each do |name, location|
     city = location[:location]
     if organized_hash[location] == true
+      organized_hash[location] << name
+    else
       
 end
 
